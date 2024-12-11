@@ -10,7 +10,7 @@ setwd("/Users/user/KEW/Cluster_Code")
 #CROPLAND VS NON CROPLAND 
 cropland_df<-read.csv("Agro_Stack_cropland.csv")
 noncropland_df<-read.csv("Agro_Stack_noncropland.csv")
-#to deal with spatial autocorrelation and sample size difference
+#to deal with sample size difference
 noncropland_df<-noncropland_df[sample(nrow(noncropland_df),1000000),]
 
 df<-rbind(cropland_df,noncropland_df)
@@ -103,4 +103,4 @@ hist(field_aov$residuals)
 summary(field_aov)
 tt<-TukeyHSD(field_aov)
 print(tt, digits = 8)
-#P adj is 0 for all pairings...
+#P adj is 0 for all pairings
