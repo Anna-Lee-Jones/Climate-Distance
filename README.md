@@ -1,5 +1,5 @@
 # Climate-Distance
-## Global climate distance code. 
+## Global climate distance code
 ![lower res global map of interpolated climate distances](Lin_interp_1mill_world_map.jpg)
 ### Input Climate Data
 Raw input climate files can be downloaded from CHELSA using the following links:\
