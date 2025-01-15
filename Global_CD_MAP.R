@@ -10,7 +10,6 @@ library(dplyr)
 library(sp)
 library(tidyverse)
 library(stringr)
-library(beepr)
 library(ggnewscale)
 
 #set working directory
