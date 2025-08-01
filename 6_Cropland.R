@@ -5,9 +5,6 @@ library(spdep)
 #set working directory
 setwd("/Volumes/Kew Back Up 1/KEW/Cluster_Code/March_25_Run/June_Output/Processing")
 
-#haven't changed anything else for the new June 2025 run yet!
-
-
 #import tif of CD outputs from cluster
 output_rast<-rast("OUTPUT_minCD.tif")#just min climate distances
 crop_rast<-rast("/Volumes/Kew Back Up 1/KEW/Cluster_Code/crop_output.tif")
