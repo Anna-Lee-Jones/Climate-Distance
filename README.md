@@ -1,6 +1,6 @@
 # Climate-Distance
 ## Global climate distance code
-![lower res global map of interpolated climate distances](Lin_interp_1mill_world_map.jpg)
+![lower res global map of interpolated climate distances](smooth_Lin_interp_1mill_eightdegree_world_map.jpg)
 ### Input Climate Data
 Raw input climate files can be downloaded from CHELSA using the following links:\
 [2011-2040 Temp](https://os.zhdk.cloud.switch.ch/chelsav2/GLOBAL/climatologies/2011-2040/GFDL-ESM4/ssp370/bio/CHELSA_bio1_2011-2040_gfdl-esm4_ssp370_V.2.1.tif)\
