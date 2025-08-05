@@ -22,15 +22,13 @@ Rounds temperature and rainfall data to desired number of sig fig/decimals, then
 ## 3). Calculation of climate distances (to be run on cluster)
 [Climate distance cluster script](Array_cluster_code.R)\
 Takes the randomly sampled % of cells .csv and calculates climate distance for temperature and rainfall between time point 1 and time point 2. Set up to run in parallel over many cores to process the entire .csv input file. 
+More efficient script which finds the closest 20 climate distances: [Updated cluster script](June25_Cluster_Code_v4.R)\
 
 ## 4). Convert Climate Distance to KM
 [Convert climate distance into KM](CD_in_m_to_KM.R)
 
-## 5). Interpolate Climate Distances
-[Linear interpolation script](CD_interpolate_Linear_script.R)\
-[Akima interolation script](CD_interpolate_akima_script.R) 
+## 5). Interpolate Climate Distances and Plot
+[Plot interpolated climate distances](Interpolated_World_Map.R)
 
-## 6). Plot Global Map of Climate Distances
-[Plot interpolated climate distances](Global_CD_MAP.R)
-![lower res global map of interpolated climate distances](Lin_interp_1mill_world_map.jpg)
+
 
