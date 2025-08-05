@@ -20,12 +20,8 @@ Crops CHELSA climate data to land area and outputs each layer as a "full".tif, t
 Rounds temperature and rainfall data to desired number of sig fig/decimals, then stacks the climate layers into a raster. Finally converts stacked raster into a large .csv file. Conversion from .tif raster to .csv requires large RAM and high vector limit so may need to be run separately using this [raster to csv script](Rast_to_CSV.R). 
 
 ## 3). Calculation of climate distances (to be run on cluster)
-[Climate distance cluster script](Updated_cluster_code_EXACT.R)\
-Takes the randomly sampled % of cells .csv and calculates climate distance for temperature and rainfall between time point 1 and time point 2. Set up to run in parallel over many cores to process the entire .csv input file. This version finds exact temperature and rainfall matches, but confidence boundaries can also be calculated using the following scripts:\
-[Plus +0.5C, plus 5mm](Updated_cluster_code_PLUSPLUS.R)\
-[Plus +0.5C, minus 5mm](Updated_cluster_code_PLUSMINUS.R)\
-[Minus -0.5C, plus 5mm](Updated_cluster_code_MINUSPLUS.R)\
-[Minus -0.5C, minus 5mm](Updated_cluster_code_MINUSMINUS.R)
+[Climate distance cluster script](Array_cluster_code.R)\
+Takes the randomly sampled % of cells .csv and calculates climate distance for temperature and rainfall between time point 1 and time point 2. Set up to run in parallel over many cores to process the entire .csv input file. 
 
 ## 4). Convert Climate Distance to KM
 [Convert climate distance into KM](CD_in_m_to_KM.R)
