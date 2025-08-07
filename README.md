@@ -18,7 +18,7 @@ Crops CHELSA climate data to land area and outputs each layer as a "full".tif, t
 ## 2). Climate data rounding and conversion
 [Rounding and conversion script](Rounded_climate_inputs.R)\
 Rounds temperature and rainfall data to desired number of sig fig/decimals, then stacks the climate layers into a raster. Finally converts stacked raster into a large .csv file. Conversion from .tif raster to .csv requires large RAM and high vector limit so may need to be run separately using this [tiff to csv python script](Tiff_to_CSV.ipynb). 
-## * Choosing an appropriate climate thershold 
+## * Choosing an appropriate climate threshold 
 Simulations and mathematical characterisation of the effect of slope on climate distance, and threshold on climate distance: [Simulation notes](Maths_notes_on_climate_distance.pdf).
 
 ## 3). Calculation of climate distances (to be run on cluster)
