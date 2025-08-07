@@ -4,7 +4,7 @@ library(dplyr)
 library(spdep)
 library(tidyterra)
 #set working directory
-setwd("~/OneDrive - Nexus365/Cluster_Code")
+setwd("~/KEW/Cluster_Code")
 
 #import tif of all the outputs from cluster
 output_rast<-rast("ALL_OUTPUT.tif")#climate distances
