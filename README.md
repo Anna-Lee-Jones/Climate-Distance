@@ -43,7 +43,7 @@ Global Field Sizes from Lesiv, M. et al. Estimating the global distribution of f
 
 Centers of Agrobiodiversity adapted from Maxted, N., Vincent, H. Review of congruence between global crop wild relative hotspots and centres of crop origin/diversity. Genet Resour Crop Evol 68, 1283–1297 (2021). [https://doi.org/10.1007/s10722-021-01114-7](https://doi.org/10.1007/s10722-021-01114-7)
  
-## 7). Analyses Scripts
+## 7). Analysis Scripts
 [Cropland vs non-cropland](Cropland.R) \
 [Change in Crop Area](Crop_Expan_Loss.R) \
 [Steep vs not steep Cropland](Crop_Slope.R) \
