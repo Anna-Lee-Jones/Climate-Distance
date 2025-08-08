@@ -20,7 +20,7 @@ Crops CHELSA climate data to land area and outputs each layer as a "full".tif, t
 Rounds temperature and rainfall data to desired number of sig fig/decimals, then stacks the climate layers into a raster. Finally converts stacked raster into a large .csv file. Conversion from .tif raster to .csv requires large RAM and high vector limit so may need to be run separately using this [tiff to csv python script](Tiff_to_CSV.ipynb). 
 
 ## * Choosing an appropriate climate threshold 
-This python notebook examines the effect of slope and climate threshold on distance to future analogue usinf 2D simulations, [simulation python notebook](Simulations_climate_distance_github_version.ipynb). 
+This python notebook examines the effect of slope and climate threshold on distance to future analogue using 2D simulations, [simulation python notebook](Simulations_climate_distance_github_version.ipynb). 
 This document summarises the simulations and mathematically characterised of the effect of slope and threshold on climate distance [simulation notes](Maths_notes_on_climate_distance.pdf).
 
 ## 3). Calculation of climate distances (to be run on cluster)
