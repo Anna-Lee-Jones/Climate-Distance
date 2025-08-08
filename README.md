@@ -52,7 +52,11 @@ Centers of Agrobiodiversity adapted from Maxted, N., Vincent, H. Review of congr
 These scripts output tifs which can be converted to CSV using [tiff to CSV python script](Tiff_to_CSV.ipynb) for stats and visualisation. 
 
 ## 8). Predicted Climate Distance, Global 1km map
-A random forest algorithm with R^2 0.94 was trained on the calculated climated distance of 2% of global cells, using temperature, rainfall (at both time points), slope, latitude and longitude as predictors. The algorithm was applied to the entire world at 1km resolution to predict climate distance. The resulting global 1km resolution map of climate distance has been uploaded as a Google Earth Engine asset: [Global climate distance asset](https://code.earthengine.google.com/?asset=projects/ee-stepagro-jones/assets/Predicted_Climate_Distance_final). The map can be visualised in google earth engine using this script: [Predicted climate distance visualisation](https://code.earthengine.google.com/64042601476cbfe449d3bf8077f3776d).
+A random forest algorithm with R^2 0.94 was trained on the calculated climated distance of 2% of global cells, using temperature, rainfall (at both time points), slope, latitude and longitude as predictors. The algorithm was applied to the entire world at 1km resolution to predict climate distance.
+
+The resulting global 1km resolution map of climate distance has been uploaded as a Google Earth Engine asset: [Global climate distance asset](https://code.earthengine.google.com/?asset=projects/ee-stepagro-jones/assets/Predicted_Climate_Distance_final).
+
+The map can be visualised in google earth engine using this script: [Predicted climate distance visualisation](https://code.earthengine.google.com/64042601476cbfe449d3bf8077f3776d).
 
 
 
